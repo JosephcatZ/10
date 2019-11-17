@@ -18,4 +18,4 @@ o = Input
 for i in range(40):
     print(i)
     o = looknsay(o)
-print("Part 1:",o)
+print("Part 1:",len(o))
