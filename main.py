@@ -1,4 +1,5 @@
 Input = "1113222113"
+#Input = "1"
 def looknsay(x):
     x = str(x)+" "
     total = ""
@@ -14,7 +15,7 @@ def looknsay(x):
             num = 1
     return(total)
 o = Input
-for i in range(40):
+for i in range(5):
     print(i)
     o = looknsay(o)
 print("Part 1:",o)
