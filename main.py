@@ -16,6 +16,9 @@ def looknsay(x):
     return(total)
 o = Input
 for i in range(40):
-    print(i)
     o = looknsay(o)
+t = o
+for i in range(10):
+    t = looknsay(t)
 print("Part 1:",len(o))
+print("Part 2:",len(t))
